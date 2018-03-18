@@ -6,6 +6,6 @@ func main() {
 	str := "Hello world!"
 
 	for _, c := range str {
-		fmt.Printf("%s %v %T\n", c, c, c)
+		fmt.Printf("%[01]s %[01]v %[01]T\n", c)
 	}
 }
